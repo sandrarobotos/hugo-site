@@ -7,3 +7,9 @@ title = "My new Victor-Hugo site"
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[params]
+  profile = "Profile will go here"
+  bio = "Bio will go here"
+  tech = "Array of stacks will go here"
+  social = "Social links will go here"
