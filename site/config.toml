@@ -9,7 +9,11 @@ title = "My new Victor-Hugo site"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
-  profile = "Profile will go here"
+  
   bio = "Bio will go here"
-  tech = "Array of stacks will go here"
+  tech = ["JS", "CSS", "HTML", "React", "Hugo", "GatsbyJS", "A11y", "JAMstack", "Netlify", "Contentful"]
   social = "Social links will go here"
+
+  [params.profile]
+    description = "My awesome alt text"
+    image = "https://picsum.photos/200/300/?random"
