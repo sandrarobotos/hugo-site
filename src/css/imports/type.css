@@ -1,0 +1,30 @@
+body{
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.3;
+  margin: 0;
+}
+
+a {
+  border-bottom: solid black 2px;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+a:hover {
+  padding-bottom: 5px;
+}
+
+a:focus {
+  border: solid black 2px;
+  outline: none;
+  padding: 5px;
+}

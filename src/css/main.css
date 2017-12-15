@@ -1,14 +1,7 @@
-/*
-  You can use import statements to include partials:
- */
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
 @import "imports/reset.css";
+@import "imports/type.css";
 @import "imports/grid.css";
+@import "imports/footer.css";
 
 
-/*
-  Or add your statements here:
- */
-body{
-  font-family: sans-serif;
-  font-size: 1.2em;
-}
